@@ -55,10 +55,8 @@ pip install requests pillow
 
 ## 🖼 Sample Output
 
-```
 ![{DD4FC0EB-D8CF-431C-92F2-FEE6F499A890}](https://github.com/user-attachments/assets/edd74eaa-5cc5-4c3a-a149-3cb142706d29)
 
-```
 
 An icon matching the condition (like sun, clouds, etc.) will also be shown.
 
