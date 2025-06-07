@@ -33,10 +33,17 @@ Install dependencies with:
 pip install requests pillow
 ```
 ---
-🚀 How to Run
-1. Clone or download this repo.
-2. Replace *your_api_key_here* with your OpenWeatherMap API key [https://home.openweathermap.org/api_keys].
-3. Run the Python script:
+🚀 Getting Started
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/weather-tkinter.git
+cd weather-tkinter
+```
+2. Insert Your API Key
+   Replace the placeholder in the code:
+   API_KEY = "api_key_here"
+   Get your API key from: Openweathermap[https://home.openweathermap.org/api_keys]
+4. Run the Python script:
 ```python
 python weather_app.py
 ```
@@ -49,4 +56,9 @@ python weather_app.py
 ---
 🖼️ UI Preview
 When you run it, you'll see a window like this:
+
+---
 ![{85D4B9D0-5F35-453C-AE6C-4D1039144204}](https://github.com/user-attachments/assets/919a7b46-0224-4923-9d97-d64e1773000f)
+
+---
+
