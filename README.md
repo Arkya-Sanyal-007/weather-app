@@ -1,64 +1,117 @@
-# 🌦 Weather App (Tkinter + OpenWeatherMap)
+# 🌦 Tkinter Weather App
 
-A simple desktop weather application built using **Python** and **Tkinter**, which fetches real-time weather data via the [OpenWeatherMap API](https://openweathermap.org/api). It displays temperature, condition, humidity, wind speed, and the official weather icon for the city entered.
-
----
-
-## ✨ Features
-
-- 🔎 Search by city name
-- 🌡 Displays temperature in Celsius
-- 🌤 Shows weather condition and icon
-- 💧 Humidity and 💨 wind speed display
-- 📦 GUI using Tkinter
-- 📡 API integration with OpenWeatherMap
+A simple and elegant desktop weather application built using **Python**, **Tkinter**, and the **OpenWeatherMap API**. Enter a city name to fetch real-time weather data including temperature, condition, humidity, wind speed, and an icon.
 
 ---
 
-## 🖥 Screenshot
+## 🚀 Features
 
-> _To be added manually. Take a screenshot after running the app and paste it in the repo._
+- 🌍 Fetches live weather data using OpenWeatherMap API  
+- 🌤 Displays current temperature, weather conditions, and wind/humidity  
+- 🌗 Detects Day or Night using weather icon code  
+- 🖼️ Displays weather icons visually  
+- 🎨 Clean and responsive GUI built with `Tkinter`  
+- ❗ Includes proper error handling for invalid input or API failures  
 
 ---
 
-## 📦 Requirements
+## 🛠 Requirements
 
-- Python 3.x
-- `requests`
-- `Pillow` (PIL fork)
-
-Install dependencies with:
+Install required libraries using pip:
 
 ```bash
 pip install requests pillow
-```
----
-🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/weather-tkinter.git
-cd weather-tkinter
-```
-2. Insert Your API Key
-   Replace the placeholder in the code:
-   API_KEY = "api_key_here"
-   Get your API key from: Openweathermap[https://home.openweathermap.org/api_keys]
-4. Run the Python script:
-```python
-python weather_app.py
-```
----
-🧾 File Structure
-```bash
-.
-├── weather_app.py      # Main Python file
-```
----
-🖼️ UI Preview
-When you run it, you'll see a window like this:
-
----
-![{85D4B9D0-5F35-453C-AE6C-4D1039144204}](https://github.com/user-attachments/assets/919a7b46-0224-4923-9d97-d64e1773000f)
+````
 
 ---
 
+## 🧾 How to Run
+
+1. Clone or download the repo.
+2. Replace the placeholder API key with your own in the code:
+
+   ```python
+   API_KEY = "your_api_key_here"
+   ```
+
+   Get one from [OpenWeatherMap](https://openweathermap.org/api).
+3. Run the script:
+
+   ```bash
+   python weather_app.py
+   ```
+
+---
+
+## 💡 GUI Overview
+
+* **Input Field**: Enter the name of the city.
+* **Get Weather** button: Triggers data fetch and updates the screen.
+* **Weather Info**: Displays city name, temperature, weather condition, humidity, and wind speed.
+* **Day/Night Detection**: Based on the weather icon.
+* **Icon**: Weather condition icon fetched and displayed dynamically.
+
+---
+
+## 🖼 Sample Output
+
+```
+Enter City Name: Mumbai
+
+🌡 Temperature: 31°C
+🌤 Clear (clear sky)
+💧 Humidity: 58%
+💨 Wind: 2.5 m/s
+☀️ Day
+```
+
+An icon matching the condition (like sun, clouds, etc.) will also be shown.
+
+---
+
+## 📁 File Structure
+
+```
+weather_app.py      # Main app file
+README.md           # You're reading it
+```
+
+---
+
+## 🧪 Error Handling
+
+* ⚠️ Shows alert if no city is entered
+* ❌ Displays error if city not found or request fails
+* 🌐 Catches API/network issues and displays a readable message
+
+---
+
+## 📊 Future Ideas
+
+* [ ] Add 5-day forecast
+* [ ] Save user preferences (last searched city)
+* [ ] Switch between metric/imperial units
+* [ ] Add dark/light mode toggle
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and share.
+
+---
+
+## 🙌 Credits
+
+* [OpenWeatherMap](https://openweathermap.org/) for the weather API
+* [Pillow](https://python-pillow.org/) for image processing
+* Python's built-in `tkinter` and `requests`
+
+---
+
+### 🧠 Tip
+
+Make sure your system supports GUI apps and Tkinter is installed. This app **won’t work in headless environments** (like most remote servers without a desktop environment).
+
+```
+---
