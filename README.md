@@ -105,6 +105,4 @@ MIT License — free to use, modify, and share.
 ### 🧠 Tip
 
 Make sure your system supports GUI apps and Tkinter is installed. This app **won’t work in headless environments** (like most remote servers without a desktop environment).
-
-```
 ---
